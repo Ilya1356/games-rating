@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require("fs").promises;
 const { config } = require('../appModules/rating')
 const { getRandomGame } = require("../appModules/api");
 
